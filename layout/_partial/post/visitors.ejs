@@ -1,0 +1,12 @@
+<% if (theme.leancloud_visitors.visitors) { %>
+    <div class="article-tag">
+        <span id="<%- url_for(post.path) %>" class="leancloud_visitors" data-flag-title="<%- post.title %>">                    
+            <span class="post-meta-item-icon">
+            <i class="fa fa-eye"></i>
+            </span>
+            <% if (theme.leancloud_visitors.visitors) %>
+            <span class="post-meta-item-text"><%= theme.leancloud_visitors.visitors %></span>
+            <span class="leancloud-visitors-count"></span>
+        </span>
+    </div>
+<% } %>

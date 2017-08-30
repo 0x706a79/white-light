@@ -1,0 +1,61 @@
+nav:
+  Home: /
+  About: /about/
+  Writing: /archives/
+  Links: /links/
+  #Rss: /atom.xml
+
+projects_url: http://github.com/Windysec
+
+customize:
+    gravatar:
+        email:
+    logo:
+        enabled: true
+        width: 50
+        height: 50
+        url: /images/avatar.png
+        gravatar: false
+    favicon:
+      # eg. generate with http://realfavicongenerator.net/
+      desktop:
+        url: /images/favicon.ico
+        gravatar: false
+      android:
+        url: /images/favicon-192x192.png
+        gravator: false
+      apple:
+        url: /images/apple-touch-icon.png
+        gravator: false
+    social_links:
+        github: http://github.com/Windysec
+        twitter: /
+        weibo: /
+    show_all_posts: false
+    post_count: 10
+    highlight: monokai
+
+# RSS
+rss: atom.xml
+
+# Plugins
+plugins:
+    disqus_shortname:
+    google_analytics: UA-86660611-1 # enter the tracking ID for your Google Analytics
+    changyan_appid: cytbxr5F5
+    changyan_appkey: prod_1b1213b19a954482c87045388c9c7954
+
+# Miscellaneous
+miscellaneous:
+    open_graph: # see http://ogp.me
+        fb_app_id:
+        fb_admins:
+        twitter_id:
+        google_plus:
+
+
+leancloud_visitors:
+  enable: true
+  app_id: gXbogVvt7GkTh0IXllnbL00P-gzGzoHsz
+  app_key: BUk2vE0XC6Uv6mlT4ToIRbGY
+  visitors: 阅读次数
